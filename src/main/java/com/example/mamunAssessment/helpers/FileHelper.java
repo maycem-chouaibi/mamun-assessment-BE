@@ -60,7 +60,6 @@ public class FileHelper {
 		BufferedWriter bw = new BufferedWriter(fw);
 		
 		for(int i = 0; i < file.size(); i++) {
-			System.out.print(file.get(i));
 			bw.write(StringUtils.join(file.get(i), ','));
 			bw.newLine();
 		}
