@@ -1,0 +1,62 @@
+{
+    "data": {
+        "content": {
+            "body": [
+                {
+                    "type": "label",
+                    "label": "Upload file",
+                    "id": "file1Lbl"
+                },
+                {
+                    "type": "file",
+                    "id": "file1"
+                },
+                {
+                    "type": "label",
+                    "label": "Upload file",
+                    "id": "file2Lbl"
+                },
+                {
+                    "type": "file",
+                    "id": "file2"
+                },
+                {
+                    "type": "label",
+                    "label": "Collation Policy:",
+                    "id": "collationLbl"
+                },
+                {
+                    "type": "dropdown",
+                    "default": "Select a policy",
+                    "data": [
+                        "Full",
+                        "Normal"
+                    ],
+                    "id": "collationDropdown"
+                },
+                {
+                    "type": "label",
+                    "label": "Number of lines to process",
+                    "id": "nbLinesLbl"
+                },
+                {
+                    "type": "input",
+                    "id": "nbLinesInput",
+                    "dataType": "number",
+                    "minValue": 0
+                },
+                {
+                    "type": "checkbox",
+                    "data": "Download",
+                    "label": "Download",
+                    "id": "downloadCB"
+                },
+                {
+                    "type": "button",
+                    "label": "Submit",
+                    "id": "submitBtn"
+                }
+            ]
+        }
+    }
+}
